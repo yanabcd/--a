@@ -1,0 +1,152 @@
+@import "reset.css";
+/*导入css文件*/
+
+/*通用CSS样式*/
+
+.container{
+	margin: 0 auto;
+	width: 950px;
+	
+}
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: inline-block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*通用CSS样式结束*/
+
+
+/*豆瓣CSS文档*/
+
+
+
+/*CSS代码开始*/
+
+/*页头开始*/
+
+
+header{
+	height: 90px;
+
+}
+
+
+header .container .logo{
+	height:30px;
+	width:160px;
+	float: left;
+	margin-right: 20px;
+}
+
+
+header .container .logo a{
+	width: 154px;
+	height: 30px;
+	display: block;
+	background: url("../豆瓣图片/logo_db.png");
+}
+
+header .container{
+	height: 30px;
+	margin-top: 30px;
+}
+header .logo a{
+	width: 154px;
+	height: 30px;
+}
+header .search{
+	float: left;
+	position: relative;
+	bottom: 17px;
+	/*设置相对定位为后面的布局做准备*/
+}
+.anniu{
+	width: 30px;
+	height: 30px;
+}
+/*豆瓣图片结束*/
+/*豆瓣搜索框开始*/
+.sousuo{
+	height: 32px;
+	width: 270px;
+	border: 1px solid #c3c3c3;
+	font-size: 13px;
+	padding: 5px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: #c3c3c3;
+}
+
+input{outline:none;}
+/* 去掉input点击蓝色边框 */
+button{
+	background: white;
+	height: 32px;
+	width: 30px;
+	border: 1px solid #c3c3c3;
+	position: relative;
+	/*设置相对定位以自己为基准*/
+	right: 35px;
+	bottom: 17px;
+	border-left:none ;
+	border-right: none;
+}
+/*设置放大镜图标样式*/
+/*开始设置导航栏信息*/
+header .info{
+	position: relative;
+	float: right;
+	bottom: 60px;
+}
+header .info ul li a{
+	background: url("../豆瓣图片/豆瓣导航栏第二张图片.png");
+	width: 40px;
+	height: 20px;
+	display: inline-block;
+}
+header .info ul li{
+	display: inline-block;
+	margin-left: 17px;
+}
+
+header .info ul li .dushu{
+	background-position: 0 0;
+}
+header .info ul li .dianying{
+	background-position: -60px 0;
+}
+header .info ul li .yinyue{
+	background-position: -120px 0;
+}
+
+header .info ul li .group{
+	background-position: -180px 0;
+}
+
+header .info ul li .tongchneg{
+	background-position: -240px 0;
+}
+
+header .info ul li .fm{
+	background-position: -300px 0;
+}
+
+header .info ul li .time{
+	background-position: -360px 0;
+}
+
+header .info ul li .doupin{
+	background-position: -423px 0;
+}
+/*页头结束*/
+/*from表单开始*/
+.from-space .from{
+	margin: 0 auto;
+}
+.from-space .from .from1{
+
+}

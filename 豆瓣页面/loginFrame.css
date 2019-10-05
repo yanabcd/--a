@@ -1,0 +1,114 @@
+@import "reset.css";
+
+
+
+/* 通用样式开始 */
+.lv{
+    color: #81c78c;
+}
+
+/* 设置span字体大小 */
+.font-size-13{
+    font-size: 13px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+
+button{
+
+    outline:none;
+    
+    }
+/* 通用样式结束 */
+.container{
+    width: 300px;
+    height: 300px;
+    padding:30px 10px 10px;
+    line-height: 2;
+    text-align: center
+}
+.container .account-1{
+    font-size: 12px;
+}
+.container .account-1 span{
+    width: 50%;
+}
+.container .account-1 .duanxin{
+    font-weight: 600;
+    display: inline-block;
+    border-bottom: 1px solid #494949
+}
+.container .account-1 .mima{
+    display: inline-block;
+    color: #babcba;
+    border-bottom: 1px solid whitesmoke
+
+}
+
+.container .account-2 a{
+    color: #81c78c;
+}
+.container .account-2{
+    text-align: start
+}
+/* 设置鼠标活动没有下划线 */
+a:hover {
+    text-decoration: none;
+}
+
+/* 设置下一行字体大小 */
+.account-2{
+    font-size: 12px;
+}
+input[type="text"],
+input[type="password"]{
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    text-indent: 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    border: 1px solid whitesmoke;
+    margin: 10px 0px
+}
+input[type="text"].more-text-indent{
+
+
+}
+.input-1{
+    padding: 8px 40px 8px 60px;
+    margin-bottom: 0px
+}
+.baliu{
+    position: absolute;
+    height: 24px;
+    bottom: 40px;
+    width: 50px;
+    font-weight: bold;
+    right: 1490px;
+    bottom: 548px;
+    top: 96px;
+    line-height: 22px;
+}
+#text-indent{
+    text-indent: 1px;
+    margin-bottom: 0px;
+}
+button{
+    width: 280px;
+    height: 34px;
+    background-color: rgba(66,189,86,.5);
+    border-radius: 4px;
+    border: 0px solid ;
+    color: white
+}
+em{
+    border-right: 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+    border-color: rgba(0,0,0,.12);
+    margin-right: -30px;
+   
+
+}
